@@ -1,0 +1,352 @@
+################################### Reinforcement Script ##########################################
+## Modified by Platyping
+##
+## Change Reinforcement.loadEvents("Mods/ReinforcementScript/Assets/XML/CustomXML/Reinforcement.xml") in CvEventManager
+## to point to correct location after merging to own mods
+##
+## <Owner> Specific Civilization or Specific Leader
+## <iDate> "NONE" to ignore, "-" to represent BC
+## <iTurn> "-1" to ignore, <iTurn> overwrites <iDate>
+## <sTriggerMap> Specific Map to Trigger
+## <sIgnoreMap> Specific Map to Ignore
+##
+## <Type>	Unit Type or Unit Class Type
+## <LeaderUnit>	Unit Type or Unit Class Type
+## <iQuantity>
+## <iPlotX>
+## <iPlotY>
+## <bCapital>	Spawns at Capital, Overwrites <iPlotX> and </iPlotY>
+## <sName>
+## <iLevel>
+## <iExperience>
+## <iImmobile>	Number of Immobile Turns
+## <iDamage>	% Damage
+## <Promotion>	List of Promotions
+## <Message>	"NONE" to ignore, Adds a pop up for Human Player
+##
+###############################################################################################
+
+<SkriptInfo>
+		<Event>
+			<Owner>CIVILIZATION_WW2_IBERIA</Owner>
+			<iDate>NONE</iDate>
+			<iTurn>15</iTurn>
+			<sTriggerMap>NONE</sTriggerMap>
+			<sIgnoreMap>NONE</sIgnoreMap>
+			<Units>
+				<Unit>
+					<Type>UNIT_ARTILLERY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>5</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>44</iPlotX>
+					<iPlotY>12</iPlotY>
+					<iLevel>2</iLevel>
+					<iExperience>5</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<Promotion>PROMOTION_PINCH</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+			
+			
+				<Unit>
+					<Type>UNIT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>5</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>44</iPlotX>
+					<iPlotY>12</iPlotY>
+					<iLevel>2</iLevel>
+					<iExperience>5</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<Promotion>PROMOTION_PINCH</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+			
+				<Unit>
+					<Type>UNIT_INFANTRY</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>5</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>44</iPlotX>
+					<iPlotY>12</iPlotY>
+					<iLevel>2</iLevel>
+					<iExperience>5</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<Promotion>PROMOTION_PINCH</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+			
+				
+			</Units>
+			<Message>NONE</Message>
+		</Event>	
+		<Event>
+			<Owner>CIVILIZATION_ALIEN</Owner>
+			<iDate>NONE</iDate>
+			<iTurn>62</iTurn>
+			<sTriggerMap>NONE</sTriggerMap>
+			<sIgnoreMap>NONE</sIgnoreMap>
+			
+			<Units>
+				<Unit>
+					<Type>UNIT_ALEN_WARRIOR</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>40</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>39</iPlotX>
+					<iPlotY>37</iPlotY>
+					<iLevel>2</iLevel>
+					<iExperience>5</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<Promotion>PROMOTION_PINCH</Promotion>
+					<Promotion>PROMOTION_LEADERSHIP</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
+					<Type>UNIT_ALEN_CRUSHER</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>10</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>39</iPlotX>
+					<iPlotY>37</iPlotY>
+					<iLevel>2</iLevel>
+					<iExperience>5</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<Promotion>PROMOTION_PINCH</Promotion>
+					<Promotion>PROMOTION_LEADERSHIP</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+			</Units>
+			
+			<Message>NONE</Message>
+		</Event>
+		<Event>
+			<Owner>CIVILIZATION_ALIEN</Owner>
+			<iDate>NONE</iDate>
+			<iTurn>38</iTurn>
+			<sTriggerMap>NONE</sTriggerMap>
+			<sIgnoreMap>NONE</sIgnoreMap>
+			
+			<Units>
+				<Unit>
+					<Type>UNIT_ALEN_WARRIOR</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>35</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>63</iPlotX>
+					<iPlotY>14</iPlotY>
+					<iLevel>2</iLevel>
+					<iExperience>5</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<Promotion>PROMOTION_PINCH</Promotion>
+					<Promotion>PROMOTION_LEADERSHIP</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
+					<Type>UNIT_ALEN_CRUSHER</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>2</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>63</iPlotX>
+					<iPlotY>14</iPlotY>
+					<iLevel>2</iLevel>
+					<iExperience>5</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<Promotion>PROMOTION_COMBAT2</Promotion>
+					<Promotion>PROMOTION_PINCH</Promotion>
+					<Promotion>PROMOTION_LEADERSHIP</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+			</Units>
+			
+			<Message>NONE</Message>
+		</Event>
+		<Event>
+			<Owner>CIVILIZATION_WW2_VICHY</Owner>
+			<iDate>NONE</iDate>
+			<iTurn>55</iTurn>
+			<sTriggerMap>NONE</sTriggerMap>
+			<sIgnoreMap>NONE</sIgnoreMap>
+			
+			<Units>
+				<Unit>
+					<Type>UNIT_MACHINE_GUN</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>6</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>40</iPlotX>
+					<iPlotY>4</iPlotY>
+					<iLevel>2</iLevel>
+					<iExperience>5</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<Promotion>PROMOTION_CITY_GARRISON1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+			
+				<Unit>
+					<Type>UNIT_MACHINE_GUN</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>6</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>43</iPlotX>
+					<iPlotY>6</iPlotY>
+					<iLevel>2</iLevel>
+					<iExperience>5</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<Promotion>PROMOTION_CITY_GARRISON1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+			
+				<Unit>
+					<Type>UNIT_MACHINE_GUN</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>6</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>46</iPlotX>
+					<iPlotY>3</iPlotY>
+					<iLevel>2</iLevel>
+					<iExperience>5</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<Promotion>PROMOTION_CITY_GARRISON1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				
+				<Unit>
+					<Type>UNIT_MACHINE_GUN</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>6</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>47</iPlotX>
+					<iPlotY>6</iPlotY>
+					<iLevel>2</iLevel>
+					<iExperience>5</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<Promotion>PROMOTION_CITY_GARRISON1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
+					<Type>UNIT_MACHINE_GUN</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>6</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>49</iPlotX>
+					<iPlotY>6</iPlotY>
+					<iLevel>2</iLevel>
+					<iExperience>5</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<Promotion>PROMOTION_CITY_GARRISON1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
+					<Type>UNIT_MACHINE_GUN</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>6</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>52</iPlotX>
+					<iPlotY>5</iPlotY>
+					<iLevel>2</iLevel>
+					<iExperience>5</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<Promotion>PROMOTION_CITY_GARRISON1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
+					<Type>UNIT_MACHINE_GUN</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>3</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>50</iPlotX>
+					<iPlotY>13</iPlotY>
+					<iLevel>2</iLevel>
+					<iExperience>5</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<Promotion>PROMOTION_CITY_GARRISON1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
+					<Type>UNIT_MACHINE_GUN</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>7</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>49</iPlotX>
+					<iPlotY>16</iPlotY>
+					<iLevel>2</iLevel>
+					<iExperience>5</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<Promotion>PROMOTION_CITY_GARRISON1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
+					<Type>UNIT_MACHINE_GUN</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>7</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>50</iPlotX>
+					<iPlotY>18</iPlotY>
+					<iLevel>2</iLevel>
+					<iExperience>5</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<Promotion>PROMOTION_CITY_GARRISON1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+			
+			</Units>
+			<Message>NONE</Message>
+		</Event>
+		<Event>
+			<Owner>CIVILIZATION_BARBARIAN</Owner>
+			<iDate>NONE</iDate>
+			<iTurn>61</iTurn>
+			<sTriggerMap>NONE</sTriggerMap>
+			<sIgnoreMap>NONE</sIgnoreMap>
+			
+			<Units>
+				<Unit>
+					<Type>UNIT_WW2_BUNKER</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>3</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>0</iPlotX>
+					<iPlotY>43</iPlotY>
+					<iLevel>2</iLevel>
+					<iExperience>5</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<Promotion>PROMOTION_CITY_GARRISON1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+				<Unit>
+					<Type>UNIT_WW2_BUNKER</Type>
+					<LeaderUnit>NONE</LeaderUnit>
+					<iQuantity>3</iQuantity>
+					<bCapital>0</bCapital>
+					<iPlotX>0</iPlotX>
+					<iPlotY>42</iPlotY>
+					<iLevel>2</iLevel>
+					<iExperience>5</iExperience>
+					<Promotion>PROMOTION_COMBAT1</Promotion>
+					<Promotion>PROMOTION_CITY_GARRISON1</Promotion>
+					<iImmobile>0</iImmobile>
+					<iDamage>0</iDamage>
+				</Unit>
+			</Units>
+			<Message>NONE</Message>
+		</Event>
+</SkriptInfo>

@@ -1,0 +1,5 @@
+This unit was created by Snafusmith.  If you use this unit in a published mod, please give credit.  The skin was adapted from one created by Jester @ the Combat Aces forums.
+
+Uses bomber animations (Bomber.kfm in your XML), team color is not supported.
+
+-Smitty
